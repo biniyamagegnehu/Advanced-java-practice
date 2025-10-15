@@ -8,11 +8,7 @@ public class connect {
          Class.forName("com.mysql.cj.jdbc.Driver");
 
          Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", "root", "");
-          System.out.println("Connected to the database successfully!");
-             //2.Ceteatea stetemnet
-               //3. Excute Sql query
-             //Prosecess the resultset
-         // Close the connection
+         System.out.println("Connected to the database successfully!");
          con.close();
 
 
